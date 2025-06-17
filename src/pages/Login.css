@@ -1,0 +1,37 @@
+.login-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+
+.login-container input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  padding: 8px 16px;
+  background-color: #004b91;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container p {
+  margin-top: 10px;
+  color: red;
+}

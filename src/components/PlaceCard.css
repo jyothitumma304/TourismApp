@@ -1,0 +1,34 @@
+/* src/components/PlaceCard.css */
+.place-card {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.place-card:hover {
+  transform: scale(1.03);
+}
+
+.place-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.place-content {
+  padding: 1rem;
+}
+
+.place-content h3 {
+  font-size: 1.2rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.place-content p {
+  font-size: 0.95rem;
+  color: #555;
+}
