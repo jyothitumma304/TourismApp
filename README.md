@@ -1,12 +1,80 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 Tourism App (MERN Stack)
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tourism App is a full-stack web application built with the **MERN stack** (MongoDB, Express.js, React, Node.js).
+It allows users to explore **Andhra Pradesh Tourism** with features like hotel booking and cultural events browsing.
+Currently, the project focuses on **frontend + cart functionality**, with scope for future integration of **payments and admin panel**.
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
+* **Frontend:** React.js
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Authentication:** JWT (planned)
+* **Others:** Context API (for cart), REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features Implemented
+
+### 🔑 Authentication
+
+* User login & signup forms
+* User profile/dashboard navigation
+
+### 🏨 Hotel Booking
+
+* Search hotels by location (e.g., Vijayawada, Vizag)
+* Display hotel details (price, available rooms)
+* Add selected rooms to **cart**
+* **Cart Page:** View and manage selected rooms
+
+### 🎭 Cultural Events
+
+* Events page with **grid layout (5 cards per row)**
+* Search by **event name, location, or date**
+* Event details page with **time, venue, images, and description**
+
+---
+
+## 🛠️ Work in Progress / Future Scope
+
+* **Stripe Payment Integration** (for hotel booking payments)
+* **Admin Panel** (manage hotels, events, users)
+* **Booking history & cancellation management**
+* **Improved authentication with JWT & role-based access**
+
+-
+
+## ⚡ Getting Started
+
+1. Clone the repository
+   git clone https://github.com/jyothitumma304/TourismApp.git
+   cd TourismApp
+2. Install dependencies
+   npm install
+3. Start frontend
+   cd frontend
+   npm start
+   
+4. Start backend
+   cd backend
+   npm run server
+  
+
+## 🎯 Key Learnings
+
+* Building a full-stack MERN project from scratch
+* Managing **cart state** using React Context API
+* Handling **search and filtering** for cultural events
+* Structuring backend APIs for scalability
+
+## 🧑‍💻 Author
+
+**Jyothi Tumma**
+
+* [GitHub](https://github.com/jyothitumma304)
+
+
+
+
+Do you also want me to prepare a **1-minute interview script** for this Tourism App (so you can confidently explain it when they ask)?
